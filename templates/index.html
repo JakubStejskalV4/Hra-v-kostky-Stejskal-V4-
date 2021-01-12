@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hod kostkou</title>
+        <meta charset="utf-8">
+        
+    </head>
+    <body style="background-color:dodgerblue">
+        <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: center; text-decoration: underline;">Počítač hodil:</h1>
+        <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">{{hod_p}}</h1> <br>
+        <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: center; text-decoration: underline;">Vy jste hodil:</h1>
+        <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">{{hod_vy}}</h1> <br>
+        <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: center; text-decoration: underline;">Vítěz zápasu:</h1>
+        <h3 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">Zápas {{vitez}}</h3> <br>
+        <br>
+        <h3>Vy jste vyhrál: {{skore_ja}}. krát.</h3>
+        <h3>Počítač vyhrál: {{skore_pc}}. krát.</h3>                                  
+    
+        <button onClick="window.location.reload();" style="text-align: center;">Hoďte znova</button>    
+    </body>
+</html>
