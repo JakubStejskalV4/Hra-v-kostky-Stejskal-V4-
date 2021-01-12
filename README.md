@@ -1,1 +1,1 @@
-# Aplikace hra v kostky (Stejskal V4)
+# Aplikace hra v kostky (Jakub Stejskal V4)
